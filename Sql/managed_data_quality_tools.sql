@@ -1,0 +1,15 @@
+create table if not exists managed_data_quality_tools(
+tool_code Integer not null,
+cause_and_effect varchar(255) null,
+fishbone_diagram varchar(255) null,
+ishikawa_code Integer null,
+scatter_points Integer null,
+histograms varchar(255) null,
+control_charts Integer null,
+pareto_code Integer null,
+check_sheet varchar(255) null,
+add_on_sheet Integer null,
+stratification Integer null,
+quality_management_result varchar(255) null,
+remarks varchar(255) null,
+constraint managed_data_quality_tools_pk primary key(tool_code));
